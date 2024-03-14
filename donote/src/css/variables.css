@@ -1,0 +1,15 @@
+:root {
+    --primary-color: #008170;
+    --primary-color-lighter: color-mix(in srgb, var(--primary-color) 30%, #ffffff);
+    --primary-color-darker: color-mix(in srgb, var(--primary-color) 100%, #000000 20%);
+    --danger-color: #D83F31;
+    --danger-color-lighter: color-mix(in srgb, var(--danger-color) 30%, #ffffff);
+    --warning-color: #E9B824;
+    --warning-color-lighter: color-mix(in srgb, var(--warning-color) 30%, #ffffff);
+    --success-color: #36a066;
+    --success-color-lighter: color-mix(in srgb, var(--success-color) 30%, #ffffff);
+    --font-family: 'Nunito', sans-serif;
+    --text-color: #333333;
+    --text-size: 1rem;
+    --spacer: 5px;
+}
